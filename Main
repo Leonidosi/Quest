@@ -1,13 +1,7 @@
 name = input("Введите имя")
-name = "Алёша"
-print(name)
-print(6 + 7 * 10)
+print("Привет" + name)
 hp = 100
-# while hp >= 0:
-
-print("begin")
-
-while hp >= 0:
+while hp > 0:
     move = input("Введите действие")
     if move == "Умереть":
         print("Смэрть")
@@ -15,5 +9,8 @@ while hp >= 0:
     if move == "Жить":
         print("Двигаемся дальше")
         hp -= 50
+    else:
+        print("Неверная команда")
+        input()
 
 print("вы умерли")
