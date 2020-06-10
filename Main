@@ -12,5 +12,4 @@ while hp > 0:
     else:
         print("Неверная команда")
         input()
-
 print("вы умерли")
